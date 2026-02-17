@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Course Catalog</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: white;
+        }
+
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th {
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        td {
+            padding: 15px;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        ul {
+            margin: 5px 0;
+        }
+
+        .nested-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .nested-table th,
+        .nested-table td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>University Course Catalog</h1>
+    <h2>Departments and Courses</h2>
+
+    <table>
+        <tr>
+            <th>Department</th>
+            <th>Courses</th>
+        </tr>
+
+        <tr>
+            <td>Computer Science</td>
+            <td>
+                <ul>
+                    <li>Web Development
+                        <ul>
+                            <li>Frontend (HTML, CSS, JavaScript)</li>
+                            <li>Backend (Node.js, Express)</li>
+                        </ul>
+                    </li>
+                    <li>Data Science
+                        <ul>
+                            <li>Python Programming</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Business Administration</td>
+            <td>
+                <ul>
+                    <li>Marketing
+                        <ul>
+                            <li>Digital Marketing</li>
+                            <li>Brand Management</li>
+                        </ul>
+                    </li>
+                    <li>Finance
+                        <ul>
+                            <li>Corporate Finance</li>
+                            <li>Investment Banking</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Engineering</td>
+            <td>
+                <table class="nested-table">
+                    <tr>
+                        <th>Branch</th>
+                        <th>Subjects</th>
+                    </tr>
+                    <tr>
+                        <td>Mechanical</td>
+                        <td>
+                            <ul>
+                                <li>Thermodynamics</li>
+                                <li>Fluid Mechanics</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Civil</td>
+                        <td>
+                            <ul>
+                                <li>Structural Engineering</li>
+                                <li>Environmental Engineering</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
