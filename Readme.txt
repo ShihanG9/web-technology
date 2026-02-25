@@ -1,4 +1,4 @@
-# 🌐 Web Technology Practice Repository
+#  Web Technology Practice Repository
 
 This repository contains my learning exercises, academic tasks, and practical implementations focused on core web development technologies:
 
