@@ -1,6 +1,4 @@
 
-#  Web Technology Repository
-=======
 #  Web Technology Practice Repository
 
 
