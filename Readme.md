@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #  Web Technology Repository
+=======
+#  Web Technology Practice Repository
+>>>>>>> 6c414dcfef14319eb4005b4fabf5594210836f28
 
 This repository contains my learning exercises, academic tasks, and practical implementations focused on core web development technologies:
 
