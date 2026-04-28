@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #4CAF50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;   /* Top & Bottom padding: 10px    Left & Right padding: 20px */
+  z-index: 1000; /*  the header always stays visible above the page content   */
+}
+
+.school-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background: white;
+  color: #4CAF50;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn.signup {
+  background: #ff9800;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+#home {
+  background: #f9f9f9;
+}
+
+#about {
+  background: #e3f2fd;
+}
+
+#services {
+  background: #fff3e0;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
